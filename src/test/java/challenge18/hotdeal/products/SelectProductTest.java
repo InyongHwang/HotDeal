@@ -32,7 +32,8 @@
 //        long productId = 753;
 //
 //        // when
-//        SelectProductResponseDto responseDto = productService.selectProduct(productId);
+
+//        SelectProductResponseDto responseDto = productService.getProductDetail(productId);
 //
 //        // then
 //        assertEquals("상의", responseDto.getCategoryA());
@@ -47,7 +48,9 @@
 //        long productId = 5555;
 //
 //        // when
-//        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> productService.checkExistProduct(productId));
+
+//        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> productService.findProductById(productId));
+
 //
 //        // then
 //        assertEquals("상품이 존재하지 않습니다.", exception.getMessage());

@@ -24,6 +24,7 @@
 //@SpringBootTest(properties = "spring.config.location = classpath:application-test.yml")
 //public class HotDealApplicationTests {
 //
+
 //    @Autowired
 //    LimitedProductRepository limitedProductRepository;
 //    @Autowired
@@ -32,11 +33,13 @@
 //    private LimitedProductService limitedProductService;
 //    @Autowired
 //    private UserService userService;
+
 //
 //    @Test
 //    void contextLoads() {
 //    }
 //
+
 //    @Test
 //    @DisplayName("한정판 상품 구매 동시성 문제 테스트")
 //    void concurrencyAboutLimitedProductTests() throws InterruptedException {

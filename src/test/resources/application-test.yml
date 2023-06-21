@@ -6,9 +6,21 @@ spring:
         jdbc-url: jdbc:h2:mem:db;MODE=MYSQL;
         username: sa
         password:
-    slave:
+    slave1:
       hikari:
         driver-class-name: org.h2.Driver
         jdbc-url: jdbc:h2:mem:db;MODE=MYSQL;
         username: sa
         password:
+    slave2:
+      hikari:
+        driver-class-name: org.h2.Driver
+        jdbc-url: jdbc:h2:mem:db;MODE=MYSQL;
+        username: sa
+        password:
+  data:
+    redis:
+      #      host: hotdeal-redis-001.pbvqep.0001.apn2.cache.amazonaws.com:6379 -> 배포 전 주석 해제
+      host: localhost # -> 배포 전 주석 처리
+      port: 6379
+    admin-token: testToken
