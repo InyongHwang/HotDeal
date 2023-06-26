@@ -11,7 +11,7 @@
 
 ### 📆 프로젝트 기간
 
-- 2023.05.?? ~ 2023.06.??
+- 2023.05.19 ~ 2023.06.??
 
 <br/>
 
@@ -99,7 +99,9 @@
 
 - 동시성 제어 테스트  
   👉 <a href="https://hot-deal.notion.site/fab52cf946cb44d183cb4372c3cae04e?pvs=4" target="_blank"> 동시성제어 테스트 보기 </a>
-
+  
+- 데이터 수집, 생성 및 관리  
+  👉 <a href="https://hot-deal.notion.site/abedb9e482744224b3006c4c95c5ecda?pvs=4" target="_blank"> 데이터 수집, 생성 및 관리 기록 보기 </a>
 
 ## Trouble Shooting
 
