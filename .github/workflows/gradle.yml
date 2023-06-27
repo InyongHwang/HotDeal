@@ -65,9 +65,10 @@ jobs:
     - name: Deploy
       uses: appleboy/ssh-action@master
       with:
-        host: 3.37.156.141
+        ##host: 3.37.156.141
+        host: 54.180.71.246
         username: ubuntu
-        key: ${{ secrets.PRIVATE_KEY }}
+        key: ${{ secrets.PRIVATE_KEY2 }}
         envs: GITHUB_SHA
         script: |
           docker pull ${{ secrets.DOCKER_USERNAME }}/hotdeal-cicd:${GITHUB_SHA::7}
